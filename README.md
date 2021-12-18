@@ -16,9 +16,9 @@ Empty: not solved
 |   4   | [Battle of the Giants 2013 : Hideouts](http://opentrains.snarknews.info/~ejudge/team.cgi?contest_id=010229) |      |
 |   5   | [2016 ACM-ICPC World Finals J](https://codeforces.ml/gym/101242) |      |
 |   6   | [JAG Practice 2010 : Alice and Bomb](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2246) |      |
-|   7   | [JAG Summer 2009 Day2 : Symmetry](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2159) |      |
+|   7   | [JAG Summer 2009 Day2 : Symmetry](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=2159) |  ⭕   |
 |   8   | [Japan Regional 2014 : Cornering at Poles](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1352) |      |
-|   9   | [AIZU 1313 Intersection of Two Prisms](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1313) |      |
+|   9   | [AIZU 1313 Intersection of Two Prisms](https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1313) |  ⭕   |
 |  10   | [Exhausted Robot - UVALive 6539(vjudge.net)](https://vjudge.net/problem/UVALive-6539) |      |
 |  11   |        [WF 2014 L](https://codeforces.ml/gym/101221)         |      |
 |  12   | [Shoot - UVALive 6635 ](https://vjudge.net/problem/UVALive-6635) |      |
@@ -55,6 +55,18 @@ Empty: not solved
 |  43   |      [Simple Polygon](https://codeforces.ml/gym/100486)      |  ⭕   |
 |  44   |        [WF 2012 J](https://codeforces.ml/gym/101205)         |      |
 |  45   |        [WF 2013 G](https://codeforces.ml/gym/101208)         |      |
+
+#### 7
+
+好像是道垃圾题啊。。如果对称轴是对的那么某点的坐标应该是round()-ini<=eps，然后就枚举对称轴set存一下坐标就行了，但是有组数据我和正解不一样啊。。迷惑，题面也挺迷惑的。。。
+
+#### 9
+
+3D半平面交。。
+
+只会 $n^2$ 。。用inf搓了个大立方体出来，然后每次3DconvexCut，但是法向量方向好恶心啊。。
+
+不过好像可以考虑 $x$ 分段积分体积？麻
 
 #### 43
 
