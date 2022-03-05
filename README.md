@@ -49,7 +49,7 @@ Empty: not solved
 |  37   | [NEERC 2012 Kingdom Reunion](https://codeforces.ml/gym/100134) |      |
 |  38   | [UVA 12513 - Safe Places](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3958) |      |
 |  39   | [UVA 12305 - Polishing a Extruded Polygon](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3727) |      |
-|  40   | [Petr Mitrichev Contest 5 D. Circular Island](https://codeforces.ml/gym/101370) |      |
+|  40   | [Petr Mitrichev Contest 5 D. Circular Island](https://codeforces.ml/gym/101370) |  ⭕  |
 |  41   |        [WF 2015 B](https://codeforces.ml/gym/101239)         |      |
 |  42   | [2016 ACM-ICPC World Finals G](https://codeforces.ml/gym/101242) |      |
 |  43   |      [Simple Polygon](https://codeforces.ml/gym/100486)      |  ⭕   |
@@ -67,6 +67,12 @@ Empty: not solved
 只会 $n^2$ 。。用inf搓了个大立方体出来，然后每次3DconvexCut，但是法向量方向好恶心啊。。
 
 不过好像可以考虑 $x$ 分段积分体积？麻
+
+#### 40
+
+显然分割线只有几种情况，多边形的边、切线、还要考虑和圆心连线的垂线（一个点）
+
+但是精度吃shit了（精度数据能不能死一死）
 
 #### 43
 
