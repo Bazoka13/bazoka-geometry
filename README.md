@@ -41,7 +41,7 @@ Empty: not solved
 |  29   | [11. Solar Lamps — Простой Новогодний Контест 2015 — SnarkNews New Year Contests - 2016 (yandex.com)](https://contest.yandex.com/newyear2016/contest/1985/problems/11/) |      |
 |  30   | [29. Land Division — Простой Новогодний Контест 2015 — SnarkNews New Year Contests - 2016 (yandex.com)](https://contest.yandex.com/newyear2016/contest/1985/problems/29/) |      |
 |  31   | [Dashboard - 2013-2014 ACM-ICPC, NEERC, Moscow Subregional Contest - E](https://codeforces.com/gym/100257) |      |
-|  32   | [Dashboard - 2013-2014 ACM-ICPC Northeastern European Regional Contest (NEERC 13) - E](https://codeforces.com/gym/100307) |      |
+|  32   | [Dashboard - 2013-2014 ACM-ICPC Northeastern European Regional Contest (NEERC 13) - E](https://codeforces.com/gym/100307) |  ⭕  |
 |  33   | [EC Final 2015 - Convex Polyhedron](https://vjudge.net/contest/348213#problem/K) |      |
 |  34   | [0x11 Ural Championship (2013) H](https://acm.timus.ru/problem.aspx?space=1&num=1978) |      |
 |  35   |        [WF 2008 C](https://vjudge.net/contest/111395)        |      |
@@ -67,6 +67,14 @@ Empty: not solved
 只会 $n^2$ 。。用inf搓了个大立方体出来，然后每次3DconvexCut，但是法向量方向好恶心啊。。
 
 不过好像可以考虑 $x$ 分段积分体积？麻
+
+#### 32
+
+todo:证明过程
+
+题解的结论，对于左端点固定的矩形，右端点右移过程面积是单峰的，可以三分最大值，而对于左端点，最大值是单峰的，所以三分套三分就行了
+
+求面积我拆了上下链，相比直接求直线和凸包交可能会好一点（？
 
 #### 40
 
