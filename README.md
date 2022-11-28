@@ -8,6 +8,8 @@
 
 Empty: not solved
 
+√：solved by mouth
+
 | Index |                             Name                             | Done |
 | :---: | :----------------------------------------------------------: | :--: |
 |   1   | [Petrozavodsk Winter-2016. JAG Contest I]([I - Shortest Bridge (atcoder.jp)](https://atcoder.jp/contests/jag2015autumn/tasks/icpc2015autumn_i)) |      |
@@ -55,6 +57,7 @@ Empty: not solved
 |  43   |      [Simple Polygon](https://codeforces.ml/gym/100486)      |  ⭕   |
 |  44   |        [WF 2012 J](https://codeforces.ml/gym/101205)         |      |
 |  45   |        [WF 2013 G](https://codeforces.ml/gym/101208)         |      |
+|  46   |        [POJ 3575](http://poj.org/problem?id=3575)         |   √  |
 
 #### 7
 
@@ -93,3 +96,7 @@ todo:证明过程
 大概就是n条线段是否严格相交（虽然题意说的很屎），然后把每条线段都向内缩一个eps的话，就可以看作线段相交了
 
 然后 nlogn 扫描线判交就可以了
+
+### 46
+
+竖着二分就行了，每次切掉其他人的面积一定\leq s_i/n
