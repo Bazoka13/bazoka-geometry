@@ -53,7 +53,7 @@ Empty: not solved
 |  39   | [UVA 12305 - Polishing a Extruded Polygon](https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3727) |      |
 |  40   | [Petr Mitrichev Contest 5 D. Circular Island](https://codeforces.ml/gym/101370) |  ⭕  |
 |  41   |        [WF 2015 B](https://codeforces.ml/gym/101239)         |      |
-|  42   | [2016 ACM-ICPC World Finals G](https://codeforces.ml/gym/101242) |      |
+|  42   | [2016 ACM-ICPC World Finals G](https://codeforces.ml/gym/101242) |  ⭕     |
 |  43   |      [Simple Polygon](https://codeforces.ml/gym/100486)      |  ⭕   |
 |  44   |        [WF 2012 J](https://codeforces.ml/gym/101205)         |      |
 |  45   |        [WF 2013 G](https://codeforces.ml/gym/101208)         |      |
